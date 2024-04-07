@@ -1,0 +1,74 @@
+Design Write-up and Test Plan 
+
+
+Program Overview:
+The program aims to manage a collection of songs through a SongList class. It includes functionalities like adding, editing, sorting, and removing songs from the list. The core data structure used is a singly linked list to store Song objects.
+
+Functions of the ADT:
+
+Add: Adds a new song to the list.
+Edit: Modifies the likes count of a song.
+Sort: Sorts the songs based on the number of likes.
+Remove: Removes songs with fewer likes than a given threshold.
+Print: Prints the details of all songs in the list.
+
+Reporting Success/Failure:
+Functions like Add function which adds a new song to the Linked List validates the Length and Likes. For my recursive Print function it returns when head is empty;
+
+Shielding Client Program:
+The SongList class encapsulates the details of the linked list implementation, shielding the client program from the internal data structure. Client programs interact with SongList objects using high-level functions like Add, and Edit, without needing to understand the process of linked lists.
+
+Data Structures Used:
+
+Singly Linked List: Used to store Song objects. Each node contains a Song object and a pointer to the next node.
+Adding a song: The new song is added at the end of the list.
+Removing a song: Nodes with fewer likes than the given threshold are removed, and pointers are adjusted accordingly.
+Song Class: Represents a song with attributes like name, title, length, and likes. It uses dynamic memory allocation for name and title strings.
+Recursive Functions:
+
+PrintHelper: Recursively prints the details of songs in the list.
+RemoveHelper: Recursively removes the nodes from the linked list that have less than M amounts of likes.
+
+Data Structure Choice: The linked list was chosen for its dynamic memory allocation and efficient insertion/removal operations, crucial for managing a variable-sized collection of songs.
+Error Handling: Functions should handle potential errors gracefully, such as invalid input or memory allocation failure, to ensure robustness.
+Encapsulation: The SongList class encapsulates the linked list implementation, providing a clean interface for client programs and hiding implementation details.
+Sorting Algorithm: Bubble sort was chosen for simplicity, considering the relatively small size of the song list. For larger lists, a more efficient sorting algorithm like merge sort or quick sort could be considered.
+Input Validation: Input validation is essential to ensure that user-provided data is within expected ranges and formats, preventing unexpected behavior or crashes.
+Conclusion:
+The design aims to provide a robust and user-friendly system for managing a collection of songs. By carefully considering data structures, error handling, and encapsulation, the program ensures reliability and ease of use. With thorough testing and refinement, it will provide a valuable tool for organizing and manipulating song data.
+
+Test Plan
+
+Add Functionality:
+
+Test Case 1: Add a new song with valid input.
+Expected Outcome: Artist Name;Title;Length;Likes
+Test Case 2: Add a new song with invalid input (e.g., negative length).
+Expected Outcome: If the length and likes are less than 0 then it would validate them.
+
+	Artist Name;Title;Length;Likes
+
+Edit Functionality:
+Test Case 1: Edit likes count of an existing song.
+Expected Outcome: 
+	Display "Enter the Title" 
+	Input tempTitle
+	check if tempTitle matches each linkedlist node
+	get the like amount from song data type, 
+	change the like amount
+Test Case 2: Edit likes count of a non-existing song.
+Expected Outcome: "does nothing to the list."
+
+Sort Functionality:
+Test Case 1: Sort songs by likes count in ascending order.
+Expected Outcome: Songs are rearranged such that likes count increases from the beginning to the end of the list.
+Remove Functionality:
+
+Test Case 1: Remove songs with fewer likes than a given M likes.
+Expected Outcome: Songs with likes count less than the M are removed from the list.
+Test Case 2: Remove songs from an empty list.
+Expected Outcome: Function returns success status with no changes to the list.
+Print Functionality:
+
+Test Case 1: Print details of all songs in the list.
+Expected Outcome: Prints the linked list.
