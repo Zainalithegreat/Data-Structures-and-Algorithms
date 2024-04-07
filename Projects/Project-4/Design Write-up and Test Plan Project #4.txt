@@ -1,0 +1,72 @@
+Design Write-up and Test Plan Project #4
+
+Design Write-up and Test Plan
+
+Program Overview:
+The program manages a binary search tree (BST) of website data using a BTSList class. It provides functionalities for adding, editing, removing, and displaying website entries. The BST efficiently organizes website entries based on keywords, allowing for quick retrieval and manipulation of data.
+
+Functions of the ADT:
+
+Insert: Adds a new website entry to the BST.
+Display: Prints all website entries in the BST.
+Height: Calculates and displays the height of the BST.
+Remove: Removes a website entry from the BST based on the keyword.
+AllRemove: Removes all website entries with a specific name.
+Retrieve: Retrieves a website entry from the BST based on the keyword.
+Reporting Success/Failure:
+Each function should report success or failure back to the calling routine using return values or parameters. For example, Insert function can return a boolean value indicating whether the insertion was successful or not.
+
+Shielding Client Program:
+The BTSList class encapsulates the details of the BST implementation, shielding the client program from the internal data structure. Client programs interact with BTSList objects using high-level functions like Insert, Display, Remove, etc., without needing to understand the details of the BST implementation.
+
+Data Structures Used:
+Binary Search Tree (BST): Used to efficiently organize website entries based on keywords. Each node contains a Data object representing a website entry and pointers to its left and right children.
+Node Class: Represents a node in the BST, containing a Data object and pointers to left and right children.
+Data Class: Represents a website entry with attributes like name, keyword, address, summary, review, and rating.
+
+Recursive Functions:
+
+InsertHelper: Recursively inserts a new node into the BST based on the keyword.
+DisplayHelper: Recursively prints the website entries in the BST in ascending order based on keywords.
+Height: Recursively calculates the height of the BST.
+RemoveHelper: Recursively removes a node from the BST based on the keyword.
+AllRemoveHelper: Recursively removes all nodes with a specific name from the BST.
+Retrieve: Recursively retrieves a website entry from the BST based on the keyword.
+Design Considerations:
+
+Efficiency: The BST was chosen for its efficient insertion, retrieval, and removal operations, offering average-case time complexities of O(log n).
+Encapsulation: The BTSList class encapsulates the BST implementation, providing a clean interface for client programs and hiding internal details.
+Recursion: Recursive functions are used for operations like insertion, removal, and retrieval, simplifying the implementation and leveraging the self-similar nature of BSTs.
+Test Plan:
+
+Insert Functionality:
+Test Case 1: Insert a new website entry with valid data.
+Expected Outcome: Success message indicating successful insertion.
+Test Case 2: Insert a new website entry with invalid data (e.g., empty keyword).
+Expected Outcome: Failure message indicating unsuccessful insertion.
+
+Display Functionality:
+Test Case 1: Display all website entries in the BST.
+Expected Outcome: Print all website entries in ascending order based on keywords.
+
+Height Functionality:
+Test Case 1: Calculate the height of the BST.
+Expected Outcome: Print the height of the BST.
+
+Remove Functionality:
+Test Case 1: Remove a website entry with an existing keyword.
+Expected Outcome: Success message indicating successful removal.
+Test Case 2: Remove a website entry with a non-existing keyword.
+Expected Outcome: Failure message indicating unsuccessful removal.
+
+AllRemove Functionality:
+Test Case 1: Remove all website entries with a specific name.
+Expected Outcome: Success message indicating successful removal of all matching entries.
+
+Retrieve Functionality:
+Test Case 1: Retrieve a website entry with an existing keyword.
+Expected Outcome: Print the retrieved website entry.
+Test Case 2: Retrieve a website entry with a non-existing keyword.
+Expected Outcome: Failure message indicating unsuccessful retrieval.
+
+The test plan ensures comprehensive testing of all functionalities of the BTSList class, covering both valid and invalid cases to verify the correctness and robustness of the implementation.
