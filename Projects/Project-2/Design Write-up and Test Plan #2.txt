@@ -1,0 +1,82 @@
+Design Write-up and Test Plan Project #2
+
+Program Overview:
+The program aims to manage a queue of groups waiting for seats in a venue, along with functionality to manage promotional codes for the groups. It consists of components such as queue management, stack for promotional codes, group class, and a main program for user interaction.
+
+Functions of the ADT:
+
+Queue Management:
+
+Enqueue: Add groups to the rear of the queue.
+Dequeue: Remove groups from the front of the queue.
+Peek: View the next group to be seated without removing it.
+Stack for Promotional Codes:
+
+Push: Add promotional codes to the stack.
+Pop: Remove promotional codes from the stack.
+Peek: View the topmost promotional code without removing it.
+Group Class:
+
+Constructor: Initialize group attributes.
+Destructor: Free memory allocated for group attributes.
+Accessor and mutator methods: Get and set group attributes.
+Print method: Display group details.
+Reporting Success/Failure:
+
+Each function will report success/failure through appropriate return values or by displaying messages to the user.
+For instance, if the queue is full, the enqueue function will return a failure status or display a message indicating that the queue is full.
+Shielding Client Program:
+
+The program shields the client from the details of the queue and stack implementations.
+Client programs interact with high-level functions provided by the queue and stack classes without needing to understand the underlying data structures.
+Data Structures Used:
+
+Circular Linked List: Used for queue management to efficiently add and remove groups.
+Array-Based Stack: Used to manage promotional codes efficiently with push and pop operations.
+Recursive Functions:
+
+No recursive functions are needed for this project.
+Data Structure Choice:
+
+Circular linked list: Chosen for its efficient insertion and removal operations, crucial for managing a dynamic queue of groups.
+Array-based stack: Selected for its simplicity and efficiency in managing promotional codes.
+Error Handling:
+
+Functions will handle potential errors such as invalid input or memory allocation failure gracefully.
+For example, if the stack is full, the push operation will return a failure status or display an appropriate message.
+Encapsulation:
+
+The queue and stack classes encapsulate the details of their respective data structures, providing a clean interface for client programs.
+Input Validation:
+
+Input validation will be implemented to ensure that user-provided data is within expected ranges and formats, preventing unexpected behavior.
+Test Plan:
+
+Unit Tests:
+
+Queue Operations:
+Test enqueue with multiple groups.
+Test dequeue to remove groups from the queue.
+Test peek to view the next group to be seated.
+Stack Operations:
+Test push to add promotional codes to the stack.
+Test pop to remove promotional codes from the stack.
+Test peek to view the topmost promotional code in the stack.
+Group Class:
+Test group creation with valid and invalid inputs.
+Test attribute modification methods.
+Integration Tests:
+
+Queue and Stack Integration:
+Enqueue groups with and without promotions and verify if promotions are correctly added to the stack.
+Main Program:
+Test the main program flow by simulating user interactions.
+Verify if the user interface displays correct information and performs operations accurately.
+Performance Tests:
+
+Queue Performance:
+Test the performance of queue operations (enqueue, dequeue, peek) with a large number of groups.
+Stack Performance:
+Test the performance of stack operations (push, pop, peek) with a large number of promotions.
+Conclusion:
+The design ensures efficient management of groups waiting for seats and promotional codes. Thorough testing will validate the functionality and performance of the program, providing a reliable solution for seat reservation and promotions management.
