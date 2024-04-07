@@ -1,1 +1,1 @@
-Deleting, Printing, and Finding characters in a singly linked list
+This C++ program defines a LinkedList class with methods for adding elements to the end of the list, finding elements within the list, deleting elements from the list, and printing the entire list. It implements these methods using pointer manipulation and traversal through the linked list. Additionally, the destructor ensures proper deallocation of memory by deleting all nodes in the list.
