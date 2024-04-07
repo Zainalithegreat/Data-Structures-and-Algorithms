@@ -1,0 +1,66 @@
+Design Write-up and Test Plan Project #5
+
+
+Program Overview:
+The provided code implements a Data class to manage information about events, including the number of guests, venue, and date. The class includes constructors, destructor, copy constructor, assignment operator, mutator methods to set data attributes, accessor methods to retrieve data attributes, and a print method to display event information.
+
+Class Structure:
+
+The Data class consists of private data members to store the number of guests (guests), venue (venue), and date (date).
+It includes constructors to initialize the object with default values or user-defined values.
+The destructor deallocates dynamically allocated memory for venue and date to prevent memory leaks.
+A copy constructor is provided to create a new object with the same attribute values as an existing object.
+The assignment operator is overloaded to assign attribute values from one object to another.
+Mutator methods (setDate, setVenue, setGuests) allow for updating attribute values.
+Accessor methods (getDate, getVenue, getGuests) provide access to attribute values.
+The print method displays event information in a formatted manner.
+Memory Management:
+
+Dynamic memory allocation is used for storing venue and date strings to allow flexibility in handling variable-length strings.
+Proper memory deallocation is ensured in the destructor and mutator methods to prevent memory leaks and maintain memory integrity.
+Error Handling:
+
+Input validation is not explicitly implemented in the provided code. Adding input validation mechanisms in mutator methods can enhance the robustness of the class by ensuring the integrity of input data.
+Test Plan:
+
+Constructor Test:
+
+Create a Data object using the default constructor.
+Verify that the default values for guests, venue, and date are set correctly.
+Parameterized Constructor Test:
+
+Create a Data object using the parameterized constructor with specified values for guests, venue, and date.
+Verify that the object is initialized with the provided values.
+Copy Constructor Test:
+
+Create a source Data object with known attribute values.
+Create a new Data object using the copy constructor and pass the source object.
+Verify that the new object has the same attribute values as the source object.
+Assignment Operator Test:
+
+Create two Data objects, source, and destination, with different attribute values.
+Use the assignment operator to assign attribute values from the source object to the destination object.
+Verify that the destination object's attribute values are updated correctly.
+Mutator Methods Test:
+
+Create a Data object and use mutator methods to update attribute values.
+Verify that the attribute values are modified as expected.
+Accessor Methods Test:
+
+Create a Data object with known attribute values.
+Use accessor methods to retrieve attribute values.
+Verify that the retrieved attribute values match the expected values.
+Print Method Test:
+
+Create a Data object with known attribute values.
+Call the print method to display event information.
+Verify that the event information is printed correctly in the expected format.
+Memory Management Test:
+
+Create and destroy multiple Data objects.
+Monitor memory usage using debugging tools to ensure proper memory deallocation.
+Error Handling Test:
+
+Attempt to set invalid values or NULL pointers using mutator methods.
+Verify that appropriate error handling mechanisms, such as exception handling or error messages, are implemented to handle invalid inputs gracefully.
+Executing these tests will ensure the correctness, reliability, and robustness of the Data class implementation.
