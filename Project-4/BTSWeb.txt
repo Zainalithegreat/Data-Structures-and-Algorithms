@@ -1,0 +1,5 @@
+Data Structures;Key Word;https://bit.ly/3gdyFsi;C++: Walls and Mirrors;Clear overview, exercises.;5
+Data Structures;Algo;https://bit.ly/3vyOXmZ;GeeksforGeeks;Clear explanations, helpful code.;5
+Machine Learning;C++;https://bit.ly/3r9EhWJ;Coursera's ML by Andrew Ng;Well-structured, challenging.;5
+Machine Learning;Systems;https://bit.ly/3r5aVpi;Ultimate MySQL Bootcamp;Clear, practical.;4
+Computer Networks;Machine;https://bit.ly/3ImZDcU;Coursera's Networking course;Informative, hands-on.;5

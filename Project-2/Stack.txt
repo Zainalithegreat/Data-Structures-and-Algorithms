@@ -1,0 +1,90 @@
+Group E;3;none;Kamala Harris, kamala.harris@pcc.edu
+Group B;7;Wheel chair;Zain Ali, zain.ali@pcc.edu
+Group C;10;none;Joe Biden, joe.biden@pcc.edu
+Group E;3;none;Kamala Harris, kamala.harris@pcc.edu
+asdf;5;asdf;asdf
+Group B;7;Wheel chair;Zain Ali, zain.ali@pcc.edu
+Group C;10;none;Joe Biden, joe.biden@pcc.edu
+Group E;3;none;Kamala Harris, kamala.harris@pcc.edu
+asdf;6;asdf;asdf
+Group B;7;Wheel chair;Zain Ali, zain.ali@pcc.edu
+Group C;10;none;Joe Biden, joe.biden@pcc.edu
+Group E;3;none;Kamala Harris, kamala.harris@pcc.edu
+Group B;7;Wheel chair;Zain Ali, zain.ali@pcc.edu
+Group C;10;none;Joe Biden, joe.biden@pcc.edu
+Group E;3;none;Kamala Harris, kamala.harris@pcc.edu
+Group B;7;Wheel chair;Zain Ali, zain.ali@pcc.edu
+Group C;10;none;Joe Biden, joe.biden@pcc.edu
+Group E;3;none;Kamala Harris, kamala.harris@pcc.edu
+Group B;7;Wheel chair;Zain Ali, zain.ali@pcc.edu
+Group C;10;none;Joe Biden, joe.biden@pcc.edu
+Group E;3;none;Kamala Harris, kamala.harris@pcc.edu
+asdf;6;asdf;asdf
+Group B;7;Wheel chair;Zain Ali, zain.ali@pcc.edu
+Group C;10;none;Joe Biden, joe.biden@pcc.edu
+Group E;3;none;Kamala Harris, kamala.harris@pcc.edu
+asdf;7;asdf;asdf
+asdf;7;asdf;asdf
+Group B;7;Wheel chair;Zain Ali, zain.ali@pcc.edu
+Group C;10;none;Joe Biden, joe.biden@pcc.edu
+Group E;3;none;Kamala Harris, kamala.harris@pcc.edu
+asdf;6;asdf;asdf
+Group B;7;Wheel chair;Zain Ali, zain.ali@pcc.edu
+Group C;10;none;Joe Biden, joe.biden@pcc.edu
+Group E;3;none;Kamala Harris, kamala.harris@pcc.edu
+asdf;6;asdf;sadf
+Group B;7;Wheel chair;Zain Ali, zain.ali@pcc.edu
+Group C;10;none;Joe Biden, joe.biden@pcc.edu
+Group E;3;none;Kamala Harris, kamala.harris@pcc.edu
+Group B;7;Wheel chair;Zain Ali, zain.ali@pcc.edu
+Group C;10;none;Joe Biden, joe.biden@pcc.edu
+Group E;3;none;Kamala Harris, kamala.harris@pcc.edu
+Group B;7;Wheel chair;Zain Ali, zain.ali@pcc.edu
+Group C;10;none;Joe Biden, joe.biden@pcc.edu
+Group E;3;none;Kamala Harris, kamala.harris@pcc.edu
+Group B;7;Wheel chair;Zain Ali, zain.ali@pcc.edu
+Group C;10;none;Joe Biden, joe.biden@pcc.edu
+Group E;3;none;Kamala Harris, kamala.harris@pcc.edu
+Group B;7;Wheel chair;Zain Ali, zain.ali@pcc.edu
+Group C;10;none;Joe Biden, joe.biden@pcc.edu
+Group E;3;none;Kamala Harris, kamala.harris@pcc.edu
+Group B;7;Wheel chair;Zain Ali, zain.ali@pcc.edu
+Group C;10;none;Joe Biden, joe.biden@pcc.edu
+Group E;3;none;Kamala Harris, kamala.harris@pcc.edu
+Group B;7;Wheel chair;Zain Ali, zain.ali@pcc.edu
+Group C;10;none;Joe Biden, joe.biden@pcc.edu
+Group E;3;none;Kamala Harris, kamala.harris@pcc.edu
+asdf;6;asdf;asdf
+Group B;7;Wheel chair;Zain Ali, zain.ali@pcc.edu
+Group C;10;none;Joe Biden, joe.biden@pcc.edu
+Group E;3;none;Kamala Harris, kamala.harris@pcc.edu
+asdf;7;asdf;asdf
+Group B;7;Wheel chair;Zain Ali, zain.ali@pcc.edu
+Group C;10;none;Joe Biden, joe.biden@pcc.edu
+Group E;3;none;Kamala Harris, kamala.harris@pcc.edu
+asdf;8;asdf;asdf
+Group B;7;Wheel chair;Zain Ali, zain.ali@pcc.edu
+Group C;10;none;Joe Biden, joe.biden@pcc.edu
+Group E;3;none;Kamala Harris, kamala.harris@pcc.edu
+asdf;7;asdf;sdaf
+Group B;7;Wheel chair;Zain Ali, zain.ali@pcc.edu
+Group C;10;none;Joe Biden, joe.biden@pcc.edu
+Group E;3;none;Kamala Harris, kamala.harris@pcc.edu
+asdf;8;asdf;asdf
+Group B;7;Wheel chair;Zain Ali, zain.ali@pcc.edu
+Group C;10;none;Joe Biden, joe.biden@pcc.edu
+Group E;3;none;Kamala Harris, kamala.harris@pcc.edu
+Group B;7;Wheel chair;Zain Ali, zain.ali@pcc.edu
+Group C;10;none;Joe Biden, joe.biden@pcc.edu
+Group E;3;none;Kamala Harris, kamala.harris@pcc.edu
+Group B;7;Wheel chair;Zain Ali, zain.ali@pcc.edu
+Group C;10;none;Joe Biden, joe.biden@pcc.edu
+Group E;3;none;Kamala Harris, kamala.harris@pcc.edu
+asdf;3;asdf;asdf
+Group B;7;Wheel chair;Zain Ali, zain.ali@pcc.edu
+Group C;10;none;Joe Biden, joe.biden@pcc.edu
+Group E;3;none;Kamala Harris, kamala.harris@pcc.edu
+Group B;7;Wheel chair;Zain Ali, zain.ali@pcc.edu
+Group C;10;none;Joe Biden, joe.biden@pcc.edu
+Group E;3;none;Kamala Harris, kamala.harris@pcc.edu
+asdf;5;asdf;asdf
