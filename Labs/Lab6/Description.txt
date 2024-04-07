@@ -1,0 +1,10 @@
+
+This C++ program provides implementations for functions related to binary trees, including counting the number of nodes in the tree, calculating the sum of all node values, and determining the height of the tree.
+
+The count function recursively counts the number of nodes in the tree by traversing both left and right subtrees.
+
+The sum function calculates the sum of all node values by recursively traversing the tree and updating the count variable.
+
+The height function recursively calculates the height of the tree by determining the maximum height of its left and right subtrees and adding 1 for the root node.
+
+These functions are designed to work with a binary tree structure implemented using the provided node structure.
