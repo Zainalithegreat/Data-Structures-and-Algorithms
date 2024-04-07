@@ -1,0 +1,11 @@
+Data Structures;https://bit.ly/3gdyFsi;C++: Walls and Mirrors;Clear overview, exercises.;5
+Algorithms;https://bit.ly/3vyOXmZ;GeeksforGeeks;Clear explanations, helpful code.;5
+Machine Learning;https://bit.ly/3r9EhWJ;Coursera's ML by Andrew Ng;Well-structured, challenging.;5
+Database Management Systems;https://bit.ly/3r5aVpi;Ultimate MySQL Bootcamp;Clear, practical.;4
+Computer Networks;https://bit.ly/3ImZDcU;Coursera's Networking course;Informative, hands-on.;5
+Networking;https://bit.ly/242sasf23;Network in Oregon;Not great;1
+Net;https://bit.ly/24asf23;Gives feed back;Bad Design;1
+Working;https://bit.ly/242saad2;Helps find jobs;Usually down;1
+Edit;https://bit.ly/242sa2321;Edits docs for people;Not great service;1
+Display;https://bit.ly/24as213sf23;Helps display;Bad website;1
+
