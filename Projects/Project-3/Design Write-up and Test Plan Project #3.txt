@@ -1,0 +1,69 @@
+Design Write-up and Test Plan Project #3
+
+Program Overview:
+The program is designed to manage a hash table of websites, storing information such as name, address, summary, review, and rating. It includes functionalities like insertion, display, removal, editing, retrieval, and monitoring of the hash table. The hash table is implemented using separate chaining for collision resolution.
+
+Functions of the ADT:
+
+Insert: Inserts a new website entry into the hash table.
+Display: Prints the details of all websites stored in the hash table.
+Remove: Removes websites with a rating of 1.
+Edit: Modifies the review and rating of a website.
+Retrieve: Searches for websites containing a specific keyword in their name and retrieves them.
+Monitor: Displays the number of nodes in each chain of the hash table.
+Reporting Success/Failure:
+Functions such as Insert and Remove report success/failure by updating the size of the hash table appropriately. The Edit function modifies the review and rating of a website if found, otherwise, it does nothing. The Retrieve function updates the found parameter with the number of websites retrieved. The Monitor function simply displays the count of nodes in each chain.
+
+Shielding Client Program:
+The hashList class encapsulates the details of the hash table implementation, shielding the client program from the complexities of collision resolution and data storage. Client programs interact with hashList objects using high-level functions like Insert, Display, Remove, etc., without needing to understand the intricacies of the hash table implementation.
+
+Data Structures Used:
+
+Separate Chaining Hash Table: Implemented using an array of linked lists (nodes), with each node storing a website entry. This data structure efficiently handles collisions by chaining.
+Recursive Functions:
+
+RemoveHelper: Recursively removes nodes with a rating of 1 from the linked list, facilitating efficient removal of websites with low ratings.
+Error Handling:
+The program performs error handling to ensure robustness. It checks for file opening errors in the constructor when reading from a file. It also handles cases where the hash table size reaches its capacity by dynamically resizing the hash table if necessary.
+
+Efficiency of Design:
+The design effectively utilizes a hash table with separate chaining to store and manage website entries. This design choice optimizes insertion, retrieval, and removal operations, ensuring efficient performance even with large datasets. The recursive RemoveHelper function efficiently removes nodes with low ratings, contributing to the overall efficiency of the program.
+
+Inefficiencies:
+One potential inefficiency in the current design is the lack of dynamic resizing of the hash table. If the number of website entries grows significantly, the hash table may become crowded, leading to increased collision rates and decreased performance. Implementing dynamic resizing mechanisms would address this inefficiency and ensure optimal performance under varying workloads.
+
+Improvement Strategies:
+To enhance efficiency further, implementing dynamic resizing of the hash table would accommodate growing datasets and maintain optimal performance. Additionally, optimizing the hash function used for calculating indices could improve distribution and reduce collision rates. Profiling and benchmarking the program under different scenarios would help identify performance bottlenecks and guide optimization efforts effectively.
+
+Test Plan
+
+Insert Functionality:
+
+Test Case 1: Insert a new website entry with valid information.
+Test Case 2: Insert a new website entry with invalid information (e.g., empty fields).
+Test Case 3: Insert multiple website entries to test collision resolution and chaining.
+Display Functionality:
+
+Test Case 1: Display the details of all websites stored in the hash table.
+Remove Functionality:
+
+Test Case 1: Remove websites with a rating of 1 and verify their removal from the hash table.
+Edit Functionality:
+
+Test Case 1: Edit the review and rating of an existing website entry.
+Test Case 2: Attempt to edit a non-existing website entry and ensure no changes occur.
+Retrieve Functionality:
+
+Test Case 1: Retrieve websites containing a specific keyword in their name and verify the retrieved entries.
+Monitor Functionality:
+
+Test Case 1: Monitor the number of nodes in each chain of the hash table and verify the counts.
+Error Handling:
+
+Test Case 1: Attempt to read from a non-existent file and ensure proper error handling.
+Test Case 2: Test the behavior of the program when the hash table reaches its capacity.
+Efficiency Testing:
+
+Test Case 1: Measure the performance of insertion, retrieval, and removal operations with varying dataset sizes.
+Test Case 2: Profile the program under different workloads to identify and address performance bottlenecks.
+By executing these test cases, the program's functionality, robustness, and efficiency can be thoroughly evaluated, ensuring its reliability and effectiveness in managing website data.
