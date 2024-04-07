@@ -1,1 +1,1 @@
-Adding, Deleting, Printing, and Finding characters in a singly linked list
+This C++ program implements a linked list data structure with methods for adding elements, printing the list, deleting specific elements, and finding elements. It employs recursive helper functions for printing and deleting elements, and it iteratively searches for elements within the linked list.
