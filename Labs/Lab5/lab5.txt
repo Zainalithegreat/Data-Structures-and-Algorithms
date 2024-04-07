@@ -1,0 +1,72 @@
+int countR(node * head){
+        node * start = head;
+        int count = 0;
+
+        if(!head) return 0;
+        countRHelper(head, start, count);
+
+        return count;
+
+}
+
+int countRHelper(node * head, node * start, int &count){
+        count++;
+        head = head->next;
+        if(head == start){
+                return count;
+        }
+
+        return countRHelper(head, start, count);
+
+}
+
+int sumR(node * head){
+        int sum = 0;
+        node * start = head;
+        if(!head) return 0;
+        sumRHelper(head,start,sum);
+
+        return sum;
+
+}
+
+int sumRHelper(node * head, node * start, int &sum){
+        sum += head->data;
+        head = head->next;
+        if(head == start){
+                return sum;
+        }
+        return sumRHelper(head, start, sum);
+}
+int sumR(node * head){
+        int sum = 0;
+        node * start = head;
+        if(!head) return 0;
+        sumRHelper(head,start,sum);
+
+        return sum;
+
+}
+
+int sumRHelper(node * head, node * start, int &sum){
+        sum += head->data;
+        head = head->next;
+        if(head == start){
+                return sum;
+        }
+        return sumRHelper(head, start, sum);
+}
+Here is the original list: 2 -> 67 -> 60 -> 13 -> 59 -> 76 -> 66 -> 34 -> 58 -> 30 -> 2 -> 54 -> 25 -> 56 -> 31 -> 59 -> 2
+
+This list contains 17 number of items 
+Iterative count: 17
+Iterative sum: 694
+Recursive count: 17
+Recursive sum: 694
+
+
+The resulting list is... 2 -> 67 -> 60 -> 13 -> 59 -> 76 -> 66 -> 34 -> 58 -> 30 -> 2 -> 54 -> 25 -> 56 -> 31 -> 59 -> 2
+
+This list contains 17 number of items 
+The sum of all data is: 694
+# nodes freed: 17

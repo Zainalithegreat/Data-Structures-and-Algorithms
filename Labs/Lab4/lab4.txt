@@ -1,0 +1,22 @@
+int LinkedList::sumR(){
+        int sum = 0;
+        Node *curr = head;
+        sumRHelper(curr, sum);
+
+        return sum;
+}
+void LinkedList::sumRHelper(Node * head, int &sum){
+        if(!head){
+                return;
+        }else{
+                sum += head->data;
+                sumRHelper(head->next, sum);
+        }
+}
+
+9 items:
+93, 18, 187, 237, 153, 67, 76, 45, 125
+total = 1001
+
+sum() =  233
+sumR() = 233

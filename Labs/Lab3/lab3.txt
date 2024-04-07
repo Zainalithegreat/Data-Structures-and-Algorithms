@@ -1,0 +1,25 @@
+x y z 
+found y
+x z 
+did not find y
+z 
+did not find y
+List is empty
+did not find y
+
+bool LinkedList::del(char ch) {
+	return delHelper(head, ch); // Return the result of delHelper
+}
+ 
+bool LinkedList::delHelper(Node *&head, char ch) {
+	if (!head)
+        	return false;
+        if (head->data == ch) {
+		Node *temp = head;
+          	head = head->next;
+        	delete temp;
+         	return true;
+      	}
+	return delHelper(head->next, ch);
+}
+

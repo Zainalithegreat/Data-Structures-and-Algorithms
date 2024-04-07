@@ -1,0 +1,59 @@
+int height(node * root){
+        if(!root){
+                return 0;
+        }else{
+                int left = height(root->left);
+                int right = height(root->right);
+
+                return max(left, right) + 1;
+        }
+}
+
+Welcome to the Proficiency Demo!
+
+Inorder traversal: 2  7  31  48  62  63  95  100  100  100  136  146  155  161  184  185  192  204  225  240  
+
+Level 1: 225
+Level 2: 185 and 240
+Level 3: 2 and 192
+Level 4: 184
+Level 5: 100
+Level 6: 63 and 100
+Level 7: 7 and 95
+Level 8: 31
+Level 9: 48
+Level 10: 62
+Level 7: 146
+Level 8: 136 and 161
+Level 9: 100
+Level 9: 155
+Level 4: 204
+
+
+This tree contains 20 items 
+The total amount of nodes in this BST: 20
+The sum of the BST: 2436
+The height of the tree is: 10
+
+
+The resulting tree after your function ran is: 
+Inorder traversal: 2  7  31  48  62  63  95  100  100  100  136  146  155  161  184  185  192  204  225  240  
+
+Level 1: 225
+Level 2: 185 and 240
+Level 3: 2 and 192
+Level 4: 184
+Level 5: 100
+Level 6: 63 and 100
+Level 7: 7 and 95
+Level 8: 31
+Level 9: 48
+Level 10: 62
+Level 7: 146
+Level 8: 136 and 161
+Level 9: 100
+Level 9: 155
+Level 4: 204
+
+
+This tree contains 20 items 
