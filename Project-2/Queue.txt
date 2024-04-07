@@ -1,5 +1,0 @@
-Group A;12;none;none
-Group B;7;Wheel chair;Zain Ali, zain.ali@pcc.edu
-Group C;10;none;Joe Biden, joe.biden@pcc.edu
-Group D;4;High Chair;none
-Group E;3;none;Kamala Harris, kamala.harris@pcc.edu
