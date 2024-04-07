@@ -1,0 +1,1 @@
+This program defines a linked list data structure in C++, including methods for adding, deleting, printing, finding elements, and calculating the sum of elements iteratively and recursively. It utilizes a recursive approach for sum calculation and employs helper functions for various operations on the linked list.
